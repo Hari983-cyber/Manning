@@ -1,0 +1,81 @@
+/* ================= ABOUT PAGE ================= */
+
+.about-hero {
+  height: 70vh;
+  background: linear-gradient(
+      rgba(20, 25, 60, 0.75),
+      rgba(20, 25, 60, 0.75)
+    ),
+    url("../img/about-hero-bg.jpg") center center / cover no-repeat;
+}
+
+.about-hero h1 {
+  font-size: 42px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.about-tag {
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+/* Floating Card */
+.about-content-section {
+  margin-top: -120px;
+  padding-bottom: 80px;
+}
+
+.about-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 60px;
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.15);
+}
+
+.about-card h2 {
+  font-weight: 800;
+}
+
+.about-card .highlight {
+  color: var(--accent-color);
+}
+
+/* Mission Box */
+.mission-box {
+  display: flex;
+  gap: 18px;
+  background: #f8f9fc;
+  padding: 22px;
+  border-radius: 16px;
+  border-left: 4px solid var(--accent-color);
+}
+
+.mission-box .icon {
+  font-size: 26px;
+  color: var(--accent-color);
+}
+
+/* Leadership Image */
+.about-image {
+  border-radius: 20px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 32px;
+  }
+
+  .about-card {
+    padding: 35px 25px;
+  }
+
+  .about-content-section {
+    margin-top: -80px;
+  }
+}
