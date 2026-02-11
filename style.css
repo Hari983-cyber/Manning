@@ -52,7 +52,7 @@ ul {
 
 .contact-info, .social-info {
     display: flex;
-    align-items: center;
+    align-items: row;
     gap: 15px;
 }
 
