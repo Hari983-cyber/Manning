@@ -347,10 +347,10 @@ ul { list-style: none; }
     color: #1F1D51;
 }
 
-/* --- MOBILE STYLES (Max-Width 991px) --- */
+/* --- MOBILE HERO SECTION (Optimized for New Header) --- */
 @media (max-width: 991px) {
     .hero-split {
-        /* 1. Mobile Gradient: Dark top (for text), Transparent bottom (for image) */
+        /* 1. Background: Darker at top for text, clear at bottom for image */
         background: 
             linear-gradient(to bottom, 
                 rgba(31, 29, 81, 0.9) 0%,    
@@ -358,19 +358,19 @@ ul { list-style: none; }
             ),
             url('assets/img/hero-bg.jpg');
             
-        background-position: center top;
+        background-position: center top; /* Pin image to top */
         background-size: cover;
         background-repeat: no-repeat;
         
         text-align: center;
         
-        /* 2. SPACING FIX: Pushes text down to clear the white header */
-        padding-top: 160px !important; 
+        /* 2. SPACING FIX: Reduced from 160px to 130px because header is smaller now */
+        padding-top: 130px !important; 
         padding-bottom: 60px;
         padding-left: 20px;
         padding-right: 20px;
         
-        min-height: 80vh; /* Make it tall enough to show the photo */
+        min-height: 70vh; /* Adjusted height */
     }
 
     .hero-content {
@@ -378,11 +378,11 @@ ul { list-style: none; }
         margin: 0 auto;
     }
 
-    /* 3. FONT SIZE FIX: Shrink text so it doesn't look crowded */
+    /* 3. FONT FIX: Prevents text from being huge on mobile */
     .hero-content h1 {
-        font-size: 28px !important; /* Much smaller than desktop */
+        font-size: 28px !important;
         line-height: 1.3;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
     .hero-subtitle {
@@ -390,14 +390,16 @@ ul { list-style: none; }
         margin-bottom: 10px;
     }
 
-    /* Optional: Hide the long paragraph on mobile for a cleaner look */
+    /* Optional: Hide long text on mobile to show the face in the background */
     .hero-content p {
         display: none; 
     }
     
+    /* Make button easy to tap */
     .hero-content .btn-gold {
         width: 100%;
-        max-width: 250px;
+        max-width: 280px;
+        margin-top: 10px;
     }
 }
 
