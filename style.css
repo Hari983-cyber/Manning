@@ -47,13 +47,34 @@ ul {
 .top-bar-content {
     display: flex;
     justify-content: space-between;
-    align-items: row;
+    align-items: center; /* Fixed: was 'row' (invalid) */
 }
 
 .contact-info, .social-info {
     display: flex;
-    align-items: row;
+    align-items: center; /* Fixed: was 'row' (invalid) */
+    flex-direction: row; /* FORCE horizontal layout */
     gap: 15px;
+    white-space: nowrap; /* Prevents text from breaking into new lines */
+}
+
+/* --- MOBILE FIX: Keep them on one line on small screens --- */
+@media (max-width: 991px) {
+    .top-bar-content {
+        flex-direction: column; /* Stack Contact above Socials */
+        gap: 10px;
+    }
+
+    .contact-info {
+        justify-content: center;
+        width: 100%;
+        font-size: 11px; /* Reduce size to fit both on one line */
+    }
+    
+    .social-info {
+        justify-content: center;
+        width: 100%;
+    }
 }
 
 .contact-info i {
