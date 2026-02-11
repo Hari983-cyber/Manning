@@ -303,21 +303,37 @@ ul { list-style: none; }
     text-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
-/* Mobile: Keep dark overlay for readability */
+/* --- FIX: Push Content Down on Mobile --- */
 @media (max-width: 991px) {
     .hero-split {
+        /* 1. Background Settings */
         background: 
             linear-gradient(to bottom, 
-                rgba(31, 29, 81, 0.95), 
-                rgba(31, 29, 81, 0.7)),
-            url('assets/img/hero-bg.jpg');
+                rgba(31, 29, 81, 0.9) 0%,    
+                rgba(31, 29, 81, 0.4) 100%   
+            ),
+            url('assets/img/hero-bg.jpg');   
+            
         background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        text-align: center;
+        
+        /* 2. THE FIX: Increase top padding to clear the header */
+        /* Was 100px, now 180px to push text below the logo */
+        padding-top: 90px !important; 
+        padding-bottom: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+        min-height: 60vh;
     }
+
     .hero-content {
         max-width: 100%;
     }
 }
-
 /* Ensure text is readable on Mobile */
 @media (max-width: 991px) {
     .hero-split {
