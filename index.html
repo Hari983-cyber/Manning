@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manning Consulting</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="site-header">
+        
+        <style>
+            /* These styles apply ONLY to this top bar */
+            .top-bar-forced {
+                background-color: #BCA36A; /* Gold */
+                color: #ffffff;
+                font-family: 'DM Sans', sans-serif;
+                font-size: 14px;
+                padding: 10px 0;
+            }
+
+            .top-bar-inner-forced {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 15px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .contact-group-forced {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+            }
+
+            .social-group-forced {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+            }
+
+            /* === MOBILE OVERRIDE (MAX-WIDTH 991px) === */
+            @media (max-width: 991px) {
+                .top-bar-forced {
+                    padding: 15px 10px !important;
+                    height: auto !important;
+                }
+
+                /* Force Vertical Stack */
+                .top-bar-inner-forced {
+                    display: flex !important;
+                    flex-direction: column !important;
+                    gap: 15px !important;
+                    text-align: center !important;
+                }
+
+                .contact-group-forced {
+                    display: flex !important;
+                    flex-direction: column !important;
+                    gap: 10px !important;
+                    width: 100% !important;
+                }
+                
+                /* Ensure items take full width and center text */
+                .contact-group-forced span {
+                    display: block !important;
+                    width: 100% !important;
+                    text-align: center !important;
+                }
+                
+                .social-group-forced {
+                    justify-content: center !important;
+                    width: 100% !important;
+                }
+            }
+        </style>
+
+        <div class="top-bar-forced">
+            <div class="top-bar-inner-forced">
+                <div class="contact-group-forced">
+                    <span><i class="fa-solid fa-phone-volume"></i> Phone: +91- 9811222637</span>
+                    <span><i class="fa-regular fa-envelope"></i> Email: info@manningconsulting.in</span>
+                </div>
+                <div class="social-group-forced">
+                    <span>Follow us on LinkedIn:</span>
+                    <a href="https://www.linkedin.com/company/manning-consulting1/" style="color: white; font-size: 18px;"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <nav class="main-nav">
+    <div class="container nav-inner">
+        <div class="logo">
+            <img src="assets/img/logo.png" alt="Manning Consulting Logo">
+        </div>
+
+        <div class="hamburger-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#hiring process">Process</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#clients">Our Clients</a></li>
+            <li class="mobile-only-btn"><a href="#" class="btn btn-gold">Get In Touch</a></li>
+        </ul>
+
+        <a href="#contact" class="btn btn-gold desktop-btn">Get In Touch <i class="fa-solid fa-arrow-right-long"></i></a>
+    </div>
+</nav>
+    </header>
+
+    <section class="hero-split">
+    <div class="container">
+        <div class="hero-content">
+            
+            <span class="hero-subtitle">TALENT. STRATEGIC HIRING. LASTING IMPACT.</span>
+            
+            <h1>Partner with Manning Consulting — <br>where leadership recruitment meets <br>precision and performance.</h1>
+            
+            <p>
+                Manning Consulting is a forward-thinking Executive Search firm based in New Delhi, 
+                specializing in senior and leadership roles across high-impact domains like Analytics, 
+                Investment & Business Research, Foreign Language Consulting, Digital Automation, and 
+                Robotics. We don't just fill roles — we help you build the future of your organization by 
+                aligning the right talent with your strategic goals.
+            </p>
+            
+            <a href="#" class="btn btn-gold">Get In Touch <i class="fa-solid fa-arrow-right-long"></i></a>
+            
+        </div>
+    </div>
+</section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us">
+    <div class="container">
+        
+        <div class="section-header text-center">
+            <span class="section-subtitle">LOW SUBMIT-HIGH-HIT METHODOLOGY</span>
+            <h2 class="section-title">Why <span class="text-gold">Choose</span> Us</h2>
+            <p class="section-description">
+                With 18+ years of dedicated experience, we specialize in matching exceptional talent to organizations and guiding individuals toward their ideal career paths.
+            </p>
+        </div>
+
+        <div class="features-grid">
+            
+            <div class="feature-card">
+                <div class="icon-wrapper">
+                    <i class="fa-solid fa-users-viewfinder"></i>
+                </div>
+                <h3>Dedicated Resources</h3>
+                <p>Dedicated Resources to meet your hiring needs & timeline.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon-wrapper">
+                    <i class="fa-regular fa-clock"></i>
+                </div>
+                <h3>Response Time</h3>
+                <p>Delivery Management 24-48 hours after receiving the mandates.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon-wrapper">
+                    <i class="fa-regular fa-handshake"></i>
+                </div>
+                <h3>Customised Hiring</h3>
+                <p>Mapping, Headhunting, and Customized hiring. Industry functional experience for optimum performance & cultural fitment.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon-wrapper">
+                    <i class="fa-regular fa-folder-open"></i>
+                </div>
+                <h3>Recruitment Process Outsourcing</h3>
+                <p>End-to-end RPO solutions within 24–48 hrs. Scale up or niche hire, backed by a dedicated on-ground team</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Advantages & Benefits -->
+<section class="benefits-section">
+    <div class="container benefits-container">
+        
+        <div class="benefits-image-col">
+            <div class="image-wrapper">
+                <img src="assets/img/advantage.jpg" alt="Team Meeting">
+                
+                <div class="stats-overlay">
+                    <div class="stat-box white-box">
+                        <div class="stat-icon"><i class="fa-regular fa-user"></i></div>
+                        <div>
+                            <strong>20+</strong>
+                            <span>Years of Experience</span>
+                        </div>
+                    </div>
+                    <div class="stat-box navy-box">
+                        <div class="stat-icon"><i class="fa-solid fa-handshake"></i></div>
+                        <div>
+                            <strong>100+</strong>
+                            <span>Partners</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="benefits-content-col">
+            <span class="section-subtitle">ADVANTAGES & BENEFITS</span>
+            <h2 class="section-title">Streamline <span class="text-gold">Recruitment</span> With Expert Support</h2>
+            <p class="section-description">
+                We believe in <strong>Connecting the Right Talent with the Right Opportunity.</strong> Over the past 20+ years, we have acted as a reliable HR partner to 100+ multinationals and mid-level enterprises in fulfilling their hiring needs.
+            </p>
+
+            <div class="tab-buttons">
+                <button class="tab-btn active" data-target="employers">For Employers</button>
+                <button class="tab-btn" data-target="employees">For Employees</button>
+            </div>
+
+            <div id="employers" class="tab-content active">
+                <h3 class="tab-heading">Manning Advantages</h3>
+                <ul class="benefit-list single-col">
+                    <li><i class="fa-solid fa-money-bill-wave"></i> Financial strength and stability; scalable, flexible, and willing to invest.</li>
+                    <li><i class="fa-solid fa-user-tie"></i> Local market tenure; high touch customer support.</li>
+                    <li><i class="fa-regular fa-lightbulb"></i> Innovative processes and technology infrastructure.</li>
+                    <li><i class="fa-solid fa-users"></i> Significant recruiting infrastructure with nearly 100+ recruiters onboard.</li>
+                    <li><i class="fa-solid fa-globe"></i> Expanded geographical capabilities.</li>
+                    <li><i class="fa-solid fa-people-group"></i> Diversity status helps our clients meet diversity goals.</li>
+                </ul>
+                <a href="#contact" class="btn btn-navy mt-4">Recruit with Us <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+
+            <div id="employees" class="tab-content">
+                <h3 class="tab-heading">Manning Benefits</h3>
+                <ul class="benefit-list two-col">
+                    <li>
+                        <i class="fa-regular fa-calendar-check"></i> 
+                        <span><strong>Five-Day Work Week:</strong> Enjoy a healthy work-life balance with fixed Saturday & Sunday off.</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-house-laptop"></i> 
+                        <span><strong>Permanent Work From Home:</strong> Experience the flexibility of working from the comfort of your home, always.</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-briefcase"></i> 
+                        <span><strong>Fixed Shift Timings:</strong> Maintain personal balance with clear and consistent working hours.</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-tree"></i> 
+                        <span><strong>Winter Holidays:</strong> Celebrate the year-end with a full 8-day holiday from Dec 25th to Jan 1st.</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-cake-candles"></i> 
+                        <span><strong>Pre-Approved Birthday Leave:</strong> Take the day off on your birthday, no questions asked—just celebrate!</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-flag"></i> 
+                        <span><strong>National Holidays:</strong> Full observance of national holidays, honoring our diverse culture and heritage.</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-door-open"></i> 
+                        <span><strong>Open-Door Policy:</strong> We’re always listening—our HR Support Team is just a message away.</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-users-rays"></i> 
+                        <span><strong>Strong Employee Engagement:</strong> Participate in dynamic programs that make work fun, collaborative, and inclusive.</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-graduation-cap"></i> 
+                        <span><strong>Extensive Training Programs:</strong> Grow continuously with learning opportunities that boost both personal and professional skills.</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-earth-americas"></i> 
+                        <span><strong>Diversity Approach:</strong> Thrive in a workplace that celebrates inclusion and respects every voice.</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-gift"></i> 
+                        <span><strong>Recognition, Appraisals & Festive Gifting:</strong> Thrive in a workplace that celebrates inclusion and respects every voice.</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chart-line"></i> 
+                        <span><strong>High Incentive Structure:</strong> Maximize your earnings with regular and floor-based performance incentives.</span>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn-navy mt-4">Find Opportunities <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- About Us -->
+<section id="about" class="about-section">
+    <div class="about-banner">
+        <div class="container text-center">
+            <span class="banner-subtitle">ABOUT US</span>
+            <h2 class="banner-title">Know More About Manning Consulting</h2>
+        </div>
+    </div>
+
+    <div class="container relative-container">
+        <div class="about-card">
+            <div class="about-grid">
+                
+                <div class="about-text-col">
+                    <h3 class="about-heading">
+                        Manning Consulting: <span class="text-gold">Executive Search Firm</span>
+                    </h3>
+                    <p class="about-description">
+                        Manning Consulting is a proactive Executive Search firm in New Delhi that helps organizations improve their productivity through the effective use of human resources. They specialize in providing solutions for senior management and leadership roles in niche domains such as Analytics, Actuarial Science, Investment and Business Research, Foreign Languages Consulting, Digital Automation, and Robotics.
+                    </p>
+
+                    <div class="mission-box">
+                        <div class="mission-icon">
+                            <i class="fa-solid fa-bullseye"></i>
+                        </div>
+                        <div class="mission-content">
+                            <h4>Our Mission</h4>
+                            <p>To engage with organizations to understand and meet the requirements imperative in the ever-changing, growing & dynamic industry - providing them a competitive advantage with the intellectual capital we offer.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image-col">
+                    <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Manning Consulting Team">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Service we provide -->
+ <section id="services" class="services-section">
+    <div class="container">
+        
+        <div class="section-header text-center">
+            <span class="section-subtitle">SERVICES WE PROVIDE</span>
+            <h2 class="section-title">Manning Consulting <span class="text-gold">Services</span></h2>
+            <p class="section-description services-desc">
+                Manning Consulting helps various <strong>Fortune 100 companies</strong> fill their talent pool, ensuring that they rise to their potential and maintain their level of expertise with clients across the globe (<strong>India, Singapore, UK, USA, UAE, Saudi Arabia</strong>) and continues to expand its horizons to different geographies.
+            </p>
+        </div>
+
+        <div class="carousel-container">
+    
+    <button class="carousel-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+
+    <div class="carousel-track-container">
+        <ul class="carousel-track">
+            
+            <li class="carousel-slide current-slide">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Telecom Consulting">
+                    </div>
+                    <div class="service-info">
+                        <h3>Telecom Consulting</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="carousel-slide">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Niche Volume Hiring">
+                    </div>
+                    <div class="service-info">
+                        <h3>Niche Volume Hiring (IT/ITES)</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="carousel-slide">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Consulting & Audit">
+                    </div>
+                    <div class="service-info">
+                        <h3>Consulting & Audit Services</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="carousel-slide">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="SaaS Solutions">
+                    </div>
+                    <div class="service-info">
+                        <h3>SaaS Solutions</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="carousel-slide">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Robotics & Automation">
+                    </div>
+                    <div class="service-info">
+                        <h3>Digital, Robotics & Automation</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="carousel-slide">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1601597111158-2fceff292cdc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Banking & Finance">
+                    </div>
+                    <div class="service-info">
+                        <h3>Banking & Financial Services</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="carousel-slide">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Healthcare & Pharma">
+                    </div>
+                    <div class="service-info">
+                        <h3>Healthcare & Pharma</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="carousel-slide">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Strategy Consulting">
+                    </div>
+                    <div class="service-info">
+                        <h3>Strategy Consulting</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="carousel-slide">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1534536281715-e28d76689b4d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Customer Operations">
+                    </div>
+                    <div class="service-info">
+                        <h3>Customer Operations</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="carousel-slide">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="RPO">
+                    </div>
+                    <div class="service-info">
+                        <h3>Recruitment Process Outsourcing (RPO)</h3>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+
+    <button class="carousel-btn next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+
+</div>
+
+<div class="carousel-nav">
+    <button class="carousel-indicator current-slide"></button>
+    <button class="carousel-indicator"></button>
+    <button class="carousel-indicator"></button>
+    <button class="carousel-indicator"></button>
+    <button class="carousel-indicator"></button>
+    <button class="carousel-indicator"></button>
+    <button class="carousel-indicator"></button>
+    <button class="carousel-indicator"></button>
+    <button class="carousel-indicator"></button>
+    <button class="carousel-indicator"></button>
+</div>
+
+    </div>
+</section>
+
+<section class="rpo-trust-section">
+    <div class="container">
+        
+        <div class="section-header text-center">
+            <h2 class="section-title">
+                Complete Recruitment <span class="text-gold">Outsourcing You Can Trust.</span>
+            </h2>
+        </div>
+
+        <div class="rpo-container">
+            
+            <div class="rpo-image-col">
+                <img src="assets/img/RPO.jpg" alt="RPO Team">
+            </div>
+
+            <div class="rpo-content-col">
+                <p class="section-description text-left">
+                    Explore our end-to-end RPO solutions whether you need to scale fast or hire niche talent, backed by a dedicated on-ground team.
+                </p>
+
+                <span class="section-subtitle mt-4" style="display:block; margin-bottom:20px;">KEY BENEFITS OF OUR RECRUITMENT PROCESS OUTSOURCING</span>
+
+                <ul class="rpo-benefits-list">
+                    <li><i class="fa-solid fa-sitemap"></i> Talent Mapping & Sourcing</li>
+                    <li><i class="fa-solid fa-magnifying-glass"></i> Screening & Assessment</li>
+                    <li><i class="fa-solid fa-file-signature"></i> Offer Management & Onboarding</li>
+                    <li><i class="fa-solid fa-bullhorn"></i> Employer Brand Advocacy</li>
+                    <li><i class="fa-regular fa-clock"></i> Reduced Time-to-Hire</li>
+                    <li><i class="fa-solid fa-layer-group"></i> Scalable Hiring Support</li>
+                    <li><i class="fa-solid fa-money-bill-wave"></i> Cost-Efficient Hiring</li>
+                    <li><i class="fa-solid fa-chart-column"></i> Data-Driven Insights</li>
+                    <li><i class="fa-solid fa-user-check"></i> Dedicated Account Management</li>
+                    <li><i class="fa-solid fa-file-shield"></i> Compliance & Documentation</li>
+                </ul>
+
+                <a href="#contact" class="btn btn-navy mt-4" style="display:inline-flex; width:auto;">Recruit with Us <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- Hiring Solutions Using AI -->
+    <section class="ai-solutions-section">
+    <div class="container">
+        
+        <div class="section-header text-center">
+            <span class="section-subtitle">EMBRACING THE EVOLUTION OF AI</span>
+            <h2 class="section-title">Hiring Solutions <span class="text-navy">Using AI</span></h2>
+        </div>
+
+        <div class="ai-grid">
+            
+            <div class="ai-card">
+                <div class="icon-wrapper">
+                    <i class="fa-solid fa-stopwatch"></i>
+                </div>
+                <h3>Early Adoption in RPA</h3>
+                <p>Began our journey in automation hiring with <strong>Accenture Technologies</strong>, sourcing RPA developers skilled in UiPath, .NET, and SQL in Gurgaon, establishing our foothold in advanced technological staffing.</p>
+            </div>
+
+            <div class="ai-card">
+                <div class="icon-wrapper">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <h3>Advanced AI Capabilities</h3>
+                <p>Stepped into next-gen AI by assisting in recruitment for core Gen AI roles at <strong>Infosys</strong>, including a lead to develop, test, and deploy AI models with expertise in Python, Node.js, C#, HTML, and JavaScript.</p>
+            </div>
+
+            <div class="ai-card">
+                <div class="icon-wrapper">
+                    <i class="fa-brands fa-microsoft"></i>
+                </div>
+                <h3>Expansion into Microsoft Technologies</h3>
+                <p>Supported <strong>Cognizant and Accenture</strong> in acquiring talent for Power Automate developers, encompassing skills in Power Automate desktop, cloud flows, AI Builder, Process Advisor, and Microsoft Dataverse.</p>
+            </div>
+
+            <div class="ai-card">
+                <div class="icon-wrapper">
+                    <i class="fa-solid fa-handshake"></i>
+                </div>
+                <h3>Frontend AI Development</h3>
+                <p>Extended our expertise to include hiring for frontend development in AI for client <strong>Wipro, Incedo and more clients</strong>, focusing on positions requiring Angular, HTML, CSS, and JavaScript.</p>
+            </div>
+
+            <div class="ai-card">
+                <div class="icon-wrapper">
+                    <i class="fa-solid fa-users-gear"></i>
+                </div>
+                <h3>Diverse Automation Platforms</h3>
+                <p>Provided hiring solutions to <strong>Infosys, KPMG and more clients</strong> for Automation Anywhere (A360) roles, targeting professionals experienced in multiple automation technologies including A360, Blue Prism, or UiPath, as well as proficiency in .NET and SQL.</p>
+            </div>
+
+            <div class="ai-card">
+                <div class="icon-wrapper">
+                    <i class="fa-solid fa-people-group"></i>
+                </div>
+                <h3>Comprehensive Tech Stack Proficiency</h3>
+                <p>Through our engagements, demonstrated a strong ability to adapt and meet diverse technical hiring needs for <strong>KPMG and more clients</strong>, preparing for future advancements in AI and automation.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Our Hiring Process -->
+ <section id="hiring process" class="hiring-process-section">
+    <div class="geometric-bg"></div>
+
+    <div class="container process-container">
+        
+        <div class="process-content">
+            <span class="process-subtitle">RECRUITMENT REFINED</span>
+            <h2 class="process-title">Our Hiring Process</h2>
+            
+            <div class="process-timeline">
+                
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-info">
+                        <h3>Requirement Analysis</h3>
+                        <p>We begin by deeply understanding your organization's needs, culture, and specific role requirements to ensure the perfect match.</p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-info">
+                        <h3>Sourcing & Strategy</h3>
+                        <p>Leveraging our extensive database and AI tools, we identify and engage high-potential candidates across relevant markets.</p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-info">
+                        <h3>Screening & Assessment</h3>
+                        <p>Rigorous interviews and technical assessments filter the talent pool, presenting you only with the top 5% of candidates.</p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-info">
+                        <h3>Selection & Onboarding</h3>
+                        <p>We assist in the final negotiations and ensure a smooth onboarding process for long-term retention and success.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="process-image-col">
+            <img src="assets/img/process.jpg" alt="Hiring Process Meeting">
+        </div>
+
+    </div>
+</section>
+
+<!-- Our Team Section -->
+ <section class="team-section">
+    <div class="container">
+        
+        <div class="team-header-row">
+            <div class="team-header-left">
+                <span class="section-subtitle">OUR TEAM</span>
+                <h2 class="section-title">Pillars Behind Our <span class="text-gold">Hiring Solutions</span></h2>
+            </div>
+            <div class="team-header-right">
+                <p>We have a team of over 100+ seasoned Recruitment Specialists and Client Managers.</p>
+                <p>They have access to meaningful database created over the years on PAN India basis using state of art Recruitment Software/ATS Tool and Social Networking platforms like LinkedIn Recruiter, Facebook, Twitter, and others.</p>
+            </div>
+        </div>
+
+        <div class="team-grid">
+            
+            <div class="team-card">
+                <div class="member-img">
+                    <img src="assets/img/Aman.jpg" alt="Amandeep Sharma">
+                </div>
+                <div class="member-content">
+                    <div class="member-header">
+                        <h3>Amandeep Sharma</h3>
+                        <div class="member-socials">
+                            <a href="https://www.linkedin.com/in/amandeep-sharma-6985b8111/"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="mailto:amandeep@manningconsulting.in"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <span class="member-role">Business Head – Leadership Hiring</span>
+                    <p class="member-desc">Senior Management professional with a perfect blend of skills including business growth, strategies and managing operations.</p>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="member-img">
+                    <img src="assets/img/Anu.jpg" alt="Anuppriya Sharmaa">
+                </div>
+                <div class="member-content">
+                    <div class="member-header">
+                        <h3>Anuppriya Sharmaa</h3>
+                        <div class="member-socials">
+                            <a href="https://www.linkedin.com/in/anuppriya-sharmaa-5a97518/"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="mailto:anupriya@manningconsulting.in"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <span class="member-role">Business Head – Front Line/Volume Hiring</span>
+                    <p class="member-desc">Experienced Managing Partner with a demonstrated history of working in the management consulting industry.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<section id="awards" class="awards-section">
+    <div class="container">
+        
+        <div class="section-header text-center">
+            <span class="section-subtitle">OUR EXCELLENCE</span>
+            <h2 class="section-title awards-title">
+                <span class="text-navy">Awards</span> 
+                <span class="text-gold amp">&</span> 
+                <span class="text-navy">Recognition</span>
+            </h2>
+        </div>
+
+        <div class="container">
+
+    <div class="swiper awardsShowcaseSwiper">
+      <div class="swiper-wrapper">
+
+        <!-- SLIDE 1 -->
+        <div class="swiper-slide">
+          <div class="award-grid">
+
+            <div class="award-col left">
+              <div class="award-bubble color-1"><i class="bi bi-patch-check-fill"></i><h4>Certificate of Appreciation</h4><p>Barclays Shared Services</p><span>2009</span></div>
+              <div class="award-bubble color-2"><i class="bi bi-stars"></i><h4>Best Supporting Partner</h4><p>HCL</p><span>2010</span></div>
+              <div class="award-bubble color-3"><i class="bi bi-people-fill"></i><h4>Best Supporting Partner</h4><p>EXL Services</p><span>2010</span></div>
+            </div>
+
+            <div class="award-center">
+              <img src="assets/img/manning trophy.png" alt="Awards Trophy">
+            </div>
+
+            <div class="award-col right">
+              <div class="award-bubble color-4"><i class="bi bi-stars"></i><h4>Best Supporting Partner</h4><p>Convergys</p><span>2011</span></div>
+              <div class="award-bubble color-5"><i class="bi bi-graph-up-arrow"></i><h4>Highest Retention</h4><p>Convergys</p><span>2012</span></div>
+              <div class="award-bubble color-6"><i class="bi bi-award-fill"></i><h4>Best Supporting Partner</h4><p>HCL</p><span>2012</span></div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- SLIDE 2 -->
+        <div class="swiper-slide">
+          <div class="award-grid">
+
+            <div class="award-col left">
+              <div class="award-bubble color-7"><i class="bi bi-people-fill"></i><h4>Highest Diversity Contribution</h4><p>Accenture</p><span>2013</span></div>
+              <div class="award-bubble color-8"><i class="bi bi-stars"></i><h4>Best Support for Niche Skills</h4><p>Accenture</p><span>2013</span></div>
+              <div class="award-bubble color-9"><i class="bi bi-diagram-3-fill"></i><h4>Second Highest On-Boards</h4><p>Accenture</p><span>2013</span></div>
+            </div>
+
+            <div class="award-center">
+              <img src="assets/img/manning trophy.png" alt="Awards Trophy">
+            </div>
+
+            <div class="award-col right">
+              <div class="award-bubble color-10"><i class="bi bi-stars"></i><h4>Best Supporting Partner</h4><p>Convergys</p><span>2014</span></div>
+              <div class="award-bubble color-11"><i class="bi bi-building"></i><h4>Best Supporting Partner</h4><p>IBM</p><span>2014</span></div>
+              <div class="award-bubble color-12"><i class="bi bi-person-badge-fill"></i><h4>Highest Performer – Support Roles</h4><p>Quatrro Services</p><span>2015</span></div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- SLIDE 3 -->
+        <div class="swiper-slide">
+          <div class="award-grid">
+
+            <div class="award-col left">
+              <div class="award-bubble color-13"><i class="bi bi-trophy-fill"></i><h4>Golden Recruiting Partner</h4><p>Convergys</p><span>2017</span></div>
+              <div class="award-bubble color-14"><i class="bi bi-star-fill"></i><h4>Silver Recruiting Partner</h4><p>Convergys</p><span>2018</span></div>
+              <div class="award-bubble color-15"><i class="bi bi-gem"></i><h4>Most Valued Partner</h4><p>Midland Capital Group</p><span>2019</span></div>
+            </div>
+
+            <div class="award-center">
+              <img src="assets/img/manning trophy.png" alt="Awards Trophy">
+            </div>
+
+            <div class="award-col right">
+              <div class="award-bubble color-16"><i class="bi bi-patch-exclamation-fill"></i><h4>Certificate of Recognition</h4><p>Personiv</p><span>2020</span></div>
+              <div class="award-bubble color-17"><i class="bi bi-globe"></i><h4>Diversity Champion Award</h4><p>Amazon</p><span>2020</span></div>
+              <div class="award-bubble color-18"><i class="bi bi-trophy"></i><h4>Performer of the Year</h4><p>Amazon</p><span>2020</span></div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- SLIDE 4 -->
+        <div class="swiper-slide">
+          <div class="award-grid">
+
+            <div class="award-col left">
+              <div class="award-bubble color-19"><i class="bi bi-briefcase-fill"></i><h4>Most Valued Partner</h4><p>American Express</p><span>2021</span></div>
+              <div class="award-bubble color-20"><i class="bi bi-stars"></i><h4>Best Performance Award</h4><p>Admiral Solutions</p><span>2023</span></div>
+            </div>
+
+            <div class="award-center">
+              <img src="assets/img/manning trophy.png" alt="Awards Trophy">
+            </div>
+
+            <div class="award-col right">
+              <div class="award-bubble color-21"><i class="bi bi-person-check-fill"></i><h4>Best Support Hiring Partner</h4><p>Admiral Solutions</p><span>2023</span></div>
+              <div class="award-bubble color-22"><i class="bi bi-award"></i><h4>Award of Appreciation – Best Support Hiring Partner</h4><p>Admiral Solutions</p><span>2023</span></div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+</section>
+
+<section id="clients" class="clients-section-dark">
+    <div class="container">
+        <h3 class="client-heading-dark">Our Clients</h3>
+        
+        <div class="logo-marquee">
+            <div class="marquee-track">
+                
+                <div class="client-card">
+                    <img src="assets/client/1.jpg">
+                </div>
+                
+                <div class="client-card">
+                    <img src="assets/client/2.jpg">
+                </div>
+                
+                <div class="client-card">
+                    <img src="assets/client/3.jpg">
+                </div>
+                
+                <div class="client-card">
+                    <img src="assets/client/4.jpg">
+                </div>
+                
+                <div class="client-card">
+                    <img src="assets/client/5.jpg">
+                </div>
+
+                <div class="client-card">
+                    <img src="assets/client/6.jpg">
+                </div>
+
+                <div class="client-card">
+                    <img src="assets/client/7.jpg">
+                </div>
+
+                <div class="client-card">
+                    <img src="assets/client/8.jpg">
+                </div>
+
+                <div class="client-card">
+                    <img src="assets/client/9.jpg">
+                </div>
+
+                <div class="client-card">
+                    <img src="assets/client/10.jpg">
+                </div>
+
+
+                <div class="client-card">
+                    <img src="assets/client/11.jpg">
+                </div>
+                <div class="client-card">
+                    <img src="assets/client/12.jpg">
+                </div>
+                <div class="client-card">
+                    <img src="assets/client/13.jpg">
+                </div>
+                <div class="client-card">
+                    <img src="assets/client/14.jpg">
+                </div>
+                <div class="client-card">
+                    <img src="assets/client/15.jpg">
+                </div>
+                <div class="client-card">
+                    <img src="assets/client/16.jpg">
+                </div>
+                <div class="client-card">
+                    <img src="assets/client/17.jpg">
+                </div>
+                <div class="client-card">
+                    <img src="assets/client/18.jpg">
+                </div>
+                <div class="client-card">
+                    <img src="assets/client/19.jpg">
+                </div>
+                <div class="client-card">
+                    <img src="assets/client/20.jpg">
+                </div>
+                <div class="client-card">
+                    <img src="assets/client/21.jpg">
+                </div>
+                <div class="client-card">
+                    <img src="assets/client/22.jpg">
+                </div>
+                <div class="client-card">
+                    <img src="assets/client/23.jpg">
+                </div>
+                <div class="client-card">
+                    <img src="assets/client/24.jpg">
+                </div>
+                <div class="client-card">
+                    <img src="assets/client/25.jpg">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact-section">
+    <div class="container contact-container">
+        
+        <div class="contact-info-col">
+            <span class="section-subtitle">CONTACT US</span>
+            <h2 class="contact-title">Get In <span class="text-gold">Touch</span> On LinkedIn</h2>
+            
+            <p class="contact-desc">
+                Stay connected with us on LinkedIn for the latest updates, career insights, and exciting opportunities.
+            </p>
+            <p class="contact-desc">
+                Together, let's unlock new possibilities and create meaningful connections. Follow us on LinkedIn today!
+            </p>
+
+            <a href="https://www.linkedin.com/company/manning-consulting1/" class="btn btn-navy linkedin-main-btn">Follow us on Linkedin <i class="fa-solid fa-arrow-right-long"></i></a>
+
+            <div class="linkedin-posts-grid">
+                
+                <div class="post-card">
+                    <div class="post-img">
+                        <img src="assets/img/transformation.jpg" alt="Transformation Journey Post">
+                    </div>
+                    <h4>Transformation Journey</h4>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7075459313485381632/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8qG8QBjlJ7PGMfVoeEaEWtN8na5rfIvzc" class="btn-view-post">View Post <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+
+                <div class="post-card">
+                    <div class="post-img">
+                        <img src="assets/img/top-voice.jpg" alt="Community Top Voice Post">
+                    </div>
+                    <h4>Community Top Voice</h4>
+                    <a href="https://www.linkedin.com/posts/manning-consulting1_anuppriyasharmaatalks-communitytopvoice-lifecoaching-activity-7224701098714877952-_2TP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8qG8QBjlJ7PGMfVoeEaEWtN8na5rfIvzc" class="btn-view-post">View Post <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="contact-form-col">
+            <div class="form-wrapper">
+                <h3>Have Any Questions?</h3>
+                
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                    
+                    <input type="hidden" name="access_key" value="70dd17ef-56fc-4557-99dd-8e6a656a82e9">
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>First Name <span class="required">*</span></label>
+                            <input type="text" name="first_name" placeholder="First Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Last Name <span class="required">*</span></label>
+                            <input type="text" name="last_name" placeholder="Last Name" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Email <span class="required">*</span></label>
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone Number: <span class="required">*</span></label>
+                            <input type="tel" name="phone" placeholder="Phone Number:" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Message <span class="required">*</span></label>
+                        <textarea name="message" placeholder="Message" rows="4" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-gold btn-block">Contact Us</button>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-top">
+            
+            <div class="footer-col about-col">
+                <h3 class="footer-heading">Let’s Grow Together</h3>
+                <p class="footer-desc">
+                    With 18+ years of dedicated experience, we specialize in matching exceptional talent to organizations and guiding individuals toward their ideal career paths.
+                </p>
+                <div class="footer-socials">
+                    <a href="https://www.linkedin.com/company/manning-consulting1/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:info@manningconsulting.in"><i class="fa-regular fa-envelope"></i></a>
+                    <a href="https://wa.me/919811222637" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+                </div>
+            </div>
+
+            <div class="footer-col links-col">
+                <h3 class="footer-heading">Contact us today!</h3>
+                <ul class="footer-links">
+                    <li><i class="fa-solid fa-circle-check"></i> <a href="#">Home</a></li>
+                    <li><i class="fa-solid fa-circle-check"></i> <a href="#hiring process">Process</a></li>
+                    <li><i class="fa-solid fa-circle-check"></i> <a href="#about">About</a></li>
+                    <li><i class="fa-solid fa-circle-check"></i> <a href="#awards">Awards</a></li>
+                    <li><i class="fa-solid fa-circle-check"></i> <a href="#services">Services</a></li>
+                    <li><i class="fa-solid fa-circle-check"></i> <a href="#clients">Our Clients</a></li>
+                    <li><i class="fa-solid fa-circle-check"></i> <a href="#services">RPO Solutions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col contact-col">
+                <h3 class="footer-heading">Contact us today!</h3>
+                <ul class="contact-details">
+                    <li>
+                        <i class="fa-regular fa-envelope"></i>
+                        <span>Email: amandeep@manningconsulting.in</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>
+                            <strong>India Office:</strong> Manning Consulting<br>
+                            New Delhi, India
+                        </span>
+                    </li>
+                    <li class="mt-3">
+                        <i class="fa-regular fa-envelope"></i>
+                        <span>Email: anupriya@manningconsulting.in</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>
+                            <strong>UK Office:</strong> Manning Services<br>
+                            London, United Kingdom
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright @ 2026 Manning Consulting. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    <button id="scrollToTopBtn" title="Go to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
