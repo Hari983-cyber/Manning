@@ -322,7 +322,7 @@ ul { list-style: none; }
         
         /* 2. THE FIX: Increase top padding to clear the header */
         /* Was 100px, now 180px to push text below the logo */
-        padding-top: 90px !important; 
+        padding-top: 120px !important; 
         padding-bottom: 80px;
         padding-left: 20px;
         padding-right: 20px;
